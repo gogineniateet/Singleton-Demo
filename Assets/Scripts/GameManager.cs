@@ -26,8 +26,10 @@ public sealed class GameManager
     }
     public void RemoveTrashCans(GameObject removedTranshcan)
     {
-        //int index = trashCans.IndexOf(removedTranshcan);
+        int index = trashCans.IndexOf(removedTranshcan);
         trashCans.Remove(removedTranshcan);
+        Debug.Log("Removed");
+        GameObject.Destroy(removedTranshcan);
     }
 
 

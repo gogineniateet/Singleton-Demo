@@ -1284,6 +1284,7 @@ GameObject:
   - component: {fileID: 201002695}
   - component: {fileID: 191234711}
   - component: {fileID: 195791512}
+  - component: {fileID: 195791513}
   m_Layer: 0
   m_Name: Ethan (1)
   m_TagString: Untagged
@@ -1304,6 +1305,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPoints: []
+--- !u!195 &195791513
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195791511}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &195791859
 GameObject:
   m_ObjectHideFlags: 0
@@ -5161,6 +5184,7 @@ GameObject:
   - component: {fileID: 847065208}
   - component: {fileID: 853556264}
   - component: {fileID: 841856041}
+  - component: {fileID: 841856042}
   m_Layer: 0
   m_Name: Ethan (2)
   m_TagString: Untagged
@@ -5181,6 +5205,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPoints: []
+--- !u!195 &841856042
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841856040}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &841856332
 GameObject:
   m_ObjectHideFlags: 0
@@ -5915,7 +5961,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 611cdb5f4988e9f49b3f00eb10a028e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trashPrefab: {fileID: 4868570962435862787, guid: 8cb09ea4f19c44e4d97896a387f0acae, type: 3}
+  trashPrefab: {fileID: 1772096609112808788, guid: 8cb09ea4f19c44e4d97896a387f0acae, type: 3}
 --- !u!4 &843694698
 Transform:
   m_ObjectHideFlags: 0
@@ -7107,6 +7153,7 @@ GameObject:
   - component: {fileID: 940246756}
   - component: {fileID: 949357236}
   - component: {fileID: 945521333}
+  - component: {fileID: 945521334}
   m_Layer: 0
   m_Name: Ethan (4)
   m_TagString: Untagged
@@ -7127,6 +7174,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPoints: []
+--- !u!195 &945521334
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 945521332}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &945521616
 GameObject:
   m_ObjectHideFlags: 0
@@ -9098,13 +9167,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 80, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &1024767730
 GameObject:
   m_ObjectHideFlags: 0
@@ -11106,6 +11175,7 @@ GameObject:
   - component: {fileID: 1960623875}
   - component: {fileID: 1950462803}
   - component: {fileID: 1955347284}
+  - component: {fileID: 1955347285}
   m_Layer: 0
   m_Name: Ethan (3)
   m_TagString: Untagged
@@ -11126,6 +11196,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goalPoints: []
+--- !u!195 &1955347285
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955347283}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
 --- !u!1 &1955348717
 GameObject:
   m_ObjectHideFlags: 0
